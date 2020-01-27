@@ -1,5 +1,5 @@
 # CSV Import
-The load data from csv files to database script. On the clear php, without any framework.
+The PHP script for load data from CSV files to database. On the clear php, without any framework.
 Works only via a console. Tested on PHP 7.4 in Linux.
 
 
