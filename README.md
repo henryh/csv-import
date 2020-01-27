@@ -1,6 +1,6 @@
 # CSV Import
 PHP script to load data from CSV files into a database. In pure php, without any framework and third-party libraries.
-It цorks only through the console. Tested on PHP 7.4 in Linux.
+It works only through the console. Tested on PHP 7.4 in Linux.
 
 ## Intallation
 1. Clone project and go to the app directory:
