@@ -3,15 +3,19 @@
 /**
  * Work with files
  */
-class FileFinder
+class File
 {
     protected string $filePath;
     protected string $fileExt;
 
-    public function __construct(Config $config)
+    /**
+     * @param string $directory
+     * @param string$extension
+     */
+    public function __construct(string $directory, string $extension)
     {
-        $this->filePath = ROOT . DIRECTORY_SEPARATOR . $config::FILE_DIRECTORY;
-        $this->fileExt = $config::FILE_EXTENSION;
+        $this->filePath = ROOT . DIRECTORY_SEPARATOR . $directory;
+        $this->fileExt = $extension;
     }
 
     /**

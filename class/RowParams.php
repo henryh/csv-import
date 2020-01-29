@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Prepare MySQL params
+ * elper to prepare MySQL PDO params
  */
 class RowParams
 {
